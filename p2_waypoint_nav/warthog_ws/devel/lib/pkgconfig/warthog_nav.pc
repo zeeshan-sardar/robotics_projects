@@ -1,0 +1,8 @@
+prefix=/home/zeeshan/warthog_ws/devel
+
+Name: warthog_nav
+Description: Description of warthog_nav
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/zeeshan/warthog_ws/devel
+
+Name: warthog_viz
+Description: Description of warthog_viz
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
