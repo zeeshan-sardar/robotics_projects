@@ -1,8 +1,0 @@
-prefix=/home/zeeshan/warthog_ws/devel
-
-Name: warthog_control
-Description: Description of warthog_control
-Version: 0.1.2
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

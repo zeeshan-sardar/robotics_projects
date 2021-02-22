@@ -1,2 +1,0 @@
-warthog/warthog_control:warthog/warthog_description:warthog/warthog_msgs:warthog_desktop/warthog_desktop:warthog_desktop/warthog_viz:warthog_nav:warthog_simulator/warthog_gazebo:warthog_simulator/warthog_simulator
--DCATKIN_DEVEL_PREFIX=/home/zeeshan/warthog_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zeeshan/warthog_ws/install -G Unix Makefiles
