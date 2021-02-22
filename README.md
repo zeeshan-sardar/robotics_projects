@@ -12,7 +12,7 @@ upon your mathematical problem formulation and coding skills.
 ## Goal
 The goal is to build a ROS package to localize Clearpath Robotics' Warthog robot using the provided data.
 
-This is the solution of problem 1 that is robot localization.
+## Overview
 
 For this purpose, robot localization packages is utilized along with hector slam package for trajectory drawing. To run both the trajectory drawing and localization, just run the following commands.
 
@@ -22,11 +22,18 @@ This project is built and tested on Ubuntu18 using ROS Melodic. Compatibility wi
 
 ### Installation
 Run the following commands to install and setup Gazebo environment  
+```
+cd dewa_evaluation_zeeshan/p1_robot_localization/catkin_ws/   
+catkin_make
+```
+ 
 
 ### Launching WARTHOG
 After the installation, launch the gazebo simulation and run the waypoint navigation node.  
-`roslaunch robot_localization dual_ekf_navsat_example.launch`  
-`rosrun rviz rviz`  
+```
+roslaunch robot_localization dual_ekf_navsat_example.launch
+rosrun rviz rviz
+``` 
 
 Use, the provided rviz configuration for better trajectory visualization.
 
