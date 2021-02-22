@@ -37,7 +37,7 @@ After the installation, launch the following command to run localization, trajec
 roslaunch robot_localization dual_ekf_navsat_example.launch
 ```
 
-### Demo Video
+### Video Demo
 [![Watch the video](https://i9.ytimg.com/vi/e-GJjmu2dGI/mq3.jpg?sqp=CIT8z4EG&rs=AOn4CLA-XcklMY21USdYqGpfVb-L-KJetw)](https://youtu.be/e-GJjmu2dGI)
 
 
@@ -73,6 +73,8 @@ roslaunch cpr_inspection_gazebo inspection_world.launch platform:=warthog
 rosrun warthog_navigation waypoint_navigation.py
 ```  
 
+### Video Demo
+[![Watch the video](https://i9.ytimg.com/vi/2GAKRoNM5eU/mq2.jpg?sqp=CLD-z4EG&rs=AOn4CLD4bTka8FQpgV_mTZ_Ha5jGXruUGw](https://youtu.be/2GAKRoNM5eU)
 
 
 # Porblem 4: Multi Input Multi Output Regression
