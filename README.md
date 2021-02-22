@@ -74,8 +74,7 @@ rosrun warthog_navigation waypoint_navigation.py
 ```  
 
 ### Video Demo
-[![Watch the video](https://i9.ytimg.com/vi/2GAKRoNM5eU/mq2.jpg?sqp=CLD-z4EG&rs=AOn4CLD4bTka8FQpgV_mTZ_Ha5jGXruUGw](https://youtu.be/2GAKRoNM5eU)
-
+[![Watch the video](https://i9.ytimg.com/vi/2GAKRoNM5eU/mq2.jpg?sqp=CLD-z4EG&rs=AOn4CLD4bTka8FQpgV_mTZ_Ha5jGXruUGw)](https://youtu.be/2GAKRoNM5eU)
 
 # Porblem 4: Multi Input Multi Output Regression
 
