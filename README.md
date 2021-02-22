@@ -70,3 +70,38 @@ After the installation, launch the gazebo simulation and run the waypoint naviga
 roslaunch cpr_inspection_gazebo inspection_world.launch platform:=warthog   
 rosrun warthog_navigation waypoint_navigation.py
 ```  
+
+
+
+# Porblem 4: Multi Input Multi Output Regression
+
+
+## Problem Statement
+You are provided with two excel files as input and output. You need to find a way to map the
+inputs to the respective outputs with minimum possible error. We need to see your code with
+results and your problem-solving journey. You may explain which techniques you applied and
+the reasons for using the selected technique.  
+Note: Use the below link to download the data to work with. This data is for the problem 1 and 4.
+
+## Goal
+
+The goal is to build a model capable of mapping the input to the output with the minimum error. 
+
+## Overview
+
+There are 21920 samples (rows) of the data. Input has 23 features (columns) and there are four outputs. By looking at the data, it's clear that the model to map them has to be continuous in nature so a regression could be a better choice for fitting the model into it.   
+
+For this purpose, a Neural Network twrok is trained using Pytorch framework. This network has three hidden layers, one input and one output layer. The data is divided into 80% training and 20% test datasets and network is trained for 200 epochs resulting in 113 mean squared error (MSE).   
+
+
+## Instructions
+This task in done in Python using Jupter Notebbok. Install the following dependencies before using it.
+
+### Requirements
+```
+pip install torch torchvision
+pip install pandas
+pip install matplotlib
+pip install sklearn
+pip install imageio
+pip install numpy
