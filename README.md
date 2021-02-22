@@ -10,32 +10,35 @@ UKF or any other sensor fusion algorithm from scratch. You will be evaluated bas
 upon your mathematical problem formulation and coding skills.
 
 ## Goal
+
 The goal is to build a ROS package to localize Clearpath Robotics' Warthog robot using the provided data.
 
 ## Overview
 
-For this purpose, robot localization packages is utilized along with hector slam package for trajectory drawing. To run both the trajectory drawing and localization, just run the following commands.
-
+The robot localization is done using the provided sensor data of Warthog robot in the form of ROS bag. To achieve this task, two ROS packages are used. One is the robot_localization which fuses sensors (GPS, IMU and Odometry) using Extended Kalman Filter. Second package is hector_slam. Hector slam is not fully used but a module of this package is utilized to plot robot's trajectory. The visualization is done in rviz.
 
 ## Instructions
+
 This project is built and tested on Ubuntu18 using ROS Melodic. Compatibility with other Ubuntu or ROS distributions is not gauranteed.
 
 ### Installation
-Run the following commands to install and setup Gazebo environment  
+
+Run the following commands to install the required packages.
 ```
 cd dewa_evaluation_zeeshan/p1_robot_localization/catkin_ws/   
 catkin_make
-```
- 
 
-### Launching WARTHOG
-After the installation, launch the gazebo simulation and run the waypoint navigation node.  
+```
+
+### Launching Localization
+
+After the installation, launch the following command to run localization, trajectory plotting and visualization. 
+
 ```
 roslaunch robot_localization dual_ekf_navsat_example.launch
-rosrun rviz rviz
-``` 
 
-Use, the provided rviz configuration for better trajectory visualization.
+```
+
 
 
 # Porblem 2: WARTHOG Waypoint Navigation
