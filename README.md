@@ -1,4 +1,4 @@
-# dewa_evaluation_zeeshan
+# DEWA Evaluation Tasks - Robotics Researcher
 
 This repository contains the solutions of the problems assigned for the candidate evaluation for Robotics Researcher Position at Dubai Electric and Water Authority (DEWA).
 
@@ -12,6 +12,11 @@ upon your mathematical problem formulation and coding skills.
 ## Goal
 The goal is to build a ROS package to localize Clearpath Robotics' Warthog robot using the provided data.
 
+This is the solution of problem 1 that is robot localization.
+
+For this purpose, robot localization packages is utilized along with hector slam package for trajectory drawing. To run both the trajectory drawing and localization, just run the following commands.
+
+
 ## Instructions
 This project is built and tested on Ubuntu18 using ROS Melodic. Compatibility with other Ubuntu or ROS distributions is not gauranteed.
 
@@ -20,8 +25,12 @@ Run the following commands to install and setup Gazebo environment
 
 ### Launching WARTHOG
 After the installation, launch the gazebo simulation and run the waypoint navigation node.  
-`roslaunch cpr_inspection_gazebo inspection_world.launch platform:=warthog `  
-`rosrun warthog_navigation waypoint_navigation.py`  
+`roslaunch robot_localization dual_ekf_navsat_example.launch`  
+`rosrun rviz rviz`  
+
+Use, the provided rviz configuration for better trajectory visualization.
+
+
 # Porblem 2: WARTHOG Waypoint Navigation
 
 ## Problem Statement
