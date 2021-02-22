@@ -2,7 +2,7 @@
 
 This repository contains the solutions of the problems assigned for the candidate evaluation for Robotics Researcher Position at Dubai Electric and Water Authority (DEWA).
 
- # Porblem 1: Robot Localization
+ # Problem 1: Robot Localization
 - You need to create a ROS package to localize the robot using only the GPS, Odometer
 and INS sensor information. You can use the EKF- package for developing your project.   
 - To stand out, instead of using ROS EKF or UKF package, you can code your own EKF,
@@ -41,7 +41,7 @@ roslaunch robot_localization dual_ekf_navsat_example.launch
 [![Watch the video](https://i9.ytimg.com/vi/e-GJjmu2dGI/mq3.jpg?sqp=CIT8z4EG&rs=AOn4CLA-XcklMY21USdYqGpfVb-L-KJetw)](https://youtu.be/e-GJjmu2dGI)
 
 
-# Porblem 2: WARTHOG Waypoint Navigation
+# Problem 2: WARTHOG Waypoint Navigation
 
 ## Problem Statement
 You need to create a ROS navigation package for clearpath warthog for waypoint navigation. You can follow the links below for basic installation and launch files.  
@@ -76,7 +76,44 @@ rosrun warthog_navigation waypoint_navigation.py
 ### Video Demo
 [![Watch the video](https://i9.ytimg.com/vi/2GAKRoNM5eU/mq2.jpg?sqp=CLD-z4EG&rs=AOn4CLD4bTka8FQpgV_mTZ_Ha5jGXruUGw)](https://youtu.be/2GAKRoNM5eU)
 
-# Porblem 4: Multi Input Multi Output Regression
+
+## Problem Statement
+Problem # 3
+Try to implement a swarm of 6 robots to map an area of 100 meters squared collectively. All
+Unmanned ground vehicles are equipped with an Odometer, IMU, GPS, LIDAR, telemetry to
+communicate with other robots and a temperature sensor.
+- You need to create a random
+temperature gradient as shown in
+the figure. The grid lines represent
+Latitude and Longitude values.
+Each cell of 1 meter squared
+represents only 1 temperature
+reading.
+- Initialize robots from random
+latitude and longitude points within
+the range of the scan area.
+- The trajectory of each robot should
+not overlap so that the swarm
+robots scan the area collectively
+with minimum cost.
+- Display the robot trajectories and
+the recovered heat map using
+information from all robots.
+Note: You can use MATLAB, ROS, Python, C++ or any programming language of your choice
+to implement this problem. You can use any two-wheeled or four-wheeled robot in this case.
+
+## Goal
+
+The goal is to implement a multi-agent system to explore the hidden underlaying field. 
+
+### Instrunctions
+This task is under development. This is being done in Python3 using jupyter notebook. 
+
+### Heatmap
+![alt text](https://github.com/zeeshan-sardar/dewa_evaluation_zeeshan/blob/master/p3_field_exploration/heatmap.png "Title")
+
+
+# Problem 4: Multi Input Multi Output Regression
 
 
 ## Problem Statement
@@ -111,5 +148,5 @@ pip install numpy
 ```
 
 ### Loss
-![alt text](https://github.com/zeeshan-sardar/dewa_evaluation_zeeshan/blob/master/p4_mimo_regression/download.png "Title")
+![alt text](https://github.com/zeeshan-sardar/dewa_evaluation_zeeshan/blob/master/p4_mimo_regression/loss.png "Title")
 
