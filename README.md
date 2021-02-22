@@ -105,6 +105,7 @@ pip install matplotlib
 pip install sklearn
 pip install imageio
 pip install numpy
+```
 
 ### Loss
 ![alt text](https://github.com/zeeshan-sardar/dewa_evaluation_zeeshan/blob/master/p4_mimo_regression/download.png "Title")
