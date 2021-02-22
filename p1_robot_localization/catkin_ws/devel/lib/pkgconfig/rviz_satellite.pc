@@ -1,8 +1,0 @@
-prefix=/home/zeeshan/catkin_ws/devel
-
-Name: rviz_satellite
-Description: Description of rviz_satellite
-Version: 3.0.3
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp rviz sensor_msgs
