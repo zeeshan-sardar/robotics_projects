@@ -76,9 +76,9 @@ rosrun warthog_navigation waypoint_navigation.py
 ### Video Demo
 [![Watch the video](https://i9.ytimg.com/vi/2GAKRoNM5eU/mq2.jpg?sqp=CLD-z4EG&rs=AOn4CLD4bTka8FQpgV_mTZ_Ha5jGXruUGw)](https://youtu.be/2GAKRoNM5eU)
 
+# Problem 3: Multi Robot Field Exploration
 
 ## Problem Statement
-Problem # 3
 Try to implement a swarm of 6 robots to map an area of 100 meters squared collectively. All
 Unmanned ground vehicles are equipped with an Odometer, IMU, GPS, LIDAR, telemetry to
 communicate with other robots and a temperature sensor.
