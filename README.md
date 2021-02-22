@@ -27,7 +27,6 @@ Run the following commands to install the required packages.
 ```
 cd dewa_evaluation_zeeshan/p1_robot_localization/catkin_ws/   
 catkin_make
-
 ```
 
 ### Launching Localization
@@ -36,7 +35,6 @@ After the installation, launch the following command to run localization, trajec
 
 ```
 roslaunch robot_localization dual_ekf_navsat_example.launch
-
 ```
 
 
@@ -58,13 +56,17 @@ This project is built and tested on Ubuntu16 using ROS Kinetic. Compatibility wi
 
 ### Installation
 Run the following commands to install and setup Gazebo environment  
-`cd dewa_evaluation_zeeshan/p2_waypoint_nav/warthog_ws`  
-`catkin_make`  
-`rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y `  
-`sudo apt-get install ros-kinetic-uuv-gazebo-worlds`  
+```
+cd dewa_evaluation_zeeshan/p2_waypoint_nav/warthog_ws  
+catkin_make  
+rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y  
+sudo apt-get install ros-kinetic-uuv-gazebo-worlds
+```
 
 
 ### Launching WARTHOG
 After the installation, launch the gazebo simulation and run the waypoint navigation node.  
-`roslaunch cpr_inspection_gazebo inspection_world.launch platform:=warthog `  
-`rosrun warthog_navigation waypoint_navigation.py`  
+```
+roslaunch cpr_inspection_gazebo inspection_world.launch platform:=warthog   
+rosrun warthog_navigation waypoint_navigation.py
+```  
