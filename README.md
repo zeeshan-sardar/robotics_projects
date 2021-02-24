@@ -26,14 +26,19 @@ This project is built and tested on Ubuntu18 using ROS Melodic. Compatibility wi
 Run the following commands to install the required packages.
 ```
 cd dewa_evaluation_zeeshan/p1_robot_localization/catkin_ws/   
+sudo apt-get install ros-melodic-geographic-msgs
+sudo apt-get install libgeographic-dev
+sudo apt-get install geographiclib-tools
 catkin_make
 ```
 
 ### Launching Localization
 
-After the installation, launch the following command to run localization, trajectory plotting and visualization. 
+After the installation, play tha bag file and launch the following command to run localization, trajectory plotting and visualization. 
 
 ```
+source devel/setup.bash
+rosbag play [bag filename]
 roslaunch robot_localization dual_ekf_navsat_example.launch
 ```
 
