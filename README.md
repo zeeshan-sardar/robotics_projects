@@ -44,7 +44,7 @@ rosbag play [bag filename]
 ```
 
 ### Video Demo
-[![Watch the video](https://i9.ytimg.com/vi/e-GJjmu2dGI/mq3.jpg?sqp=CIT8z4EG&rs=AOn4CLA-XcklMY21USdYqGpfVb-L-KJetw)](https://youtu.be/e-GJjmu2dGI)
+[![Watch the video](https://img.youtube.com/vi/e-GJjmu2dGI/hqdefault.jpg)](https://youtu.be/e-GJjmu2dGI)
 
 
 # Problem 2: WARTHOG Waypoint Navigation
@@ -80,7 +80,7 @@ rosrun warthog_navigation waypoint_navigation.py
 ```  
 
 ### Video Demo
-[![Watch the video](https://i9.ytimg.com/vi/2GAKRoNM5eU/mq2.jpg?sqp=CLD-z4EG&rs=AOn4CLD4bTka8FQpgV_mTZ_Ha5jGXruUGw)](https://youtu.be/2GAKRoNM5eU)
+[![Watch the video](https://img.youtube.com/vi/2GAKRoNM5eU/hqdefault.jpg)](https://youtu.be/2GAKRoNM5eU)
 
 # Problem 3: Multi Robot Field Exploration
 
