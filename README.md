@@ -34,12 +34,13 @@ catkin_make
 
 ### Launching Localization
 
-After the installation, play tha bag file and launch the following command to run localization, trajectory plotting and visualization. 
-
+After the installation,  
+- launch the following command to run localization, trajectory plotting and visualization. 
+- play tha bag file
 ```
 source devel/setup.bash
-rosbag play [bag filename]
 roslaunch robot_localization dual_ekf_navsat_example.launch
+rosbag play [bag filename]
 ```
 
 ### Video Demo
