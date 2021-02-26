@@ -65,17 +65,27 @@ This project is built and tested on Ubuntu16 using ROS Kinetic. Compatibility wi
 ### Installation
 Run the following commands to install and setup Gazebo environment  
 ```
-cd dewa_evaluation_zeeshan/p2_waypoint_nav/warthog_ws  
+cd dewa_evaluation_zeeshan/p2_waypoint_nav/warthog_ws/src
+
+
+git clone https://github.com/warthog-cpr/warthog.git
+git clone https://github.com/warthog-cpr/warthog_simulator.git
+git clone https://github.com/warthog-cpr/warthog_desktop.git
+git clone https://github.com/clearpathrobotics/cpr_gazebo.git
+
+cd dewa_evaluation_zeeshan/p2_waypoint_nav/warthog_ws
+rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
+sudo apt-get install ros-$ROS_DISTRO-uuv-gazebo-worlds
+
 catkin_make  
-rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y  
-sudo apt-get install ros-kinetic-uuv-gazebo-worlds
+
 ```
 
 
 ### Launching WARTHOG
 After the installation, launch the gazebo simulation and run the waypoint navigation node.  
 ```
-roslaunch cpr_inspection_gazebo inspection_world.launch platform:=warthog   
+roslaunch cpr_agriculture_gazebo agriculture_world.launch platform:=warthog 
 rosrun warthog_navigation waypoint_navigation.py
 ```  
 
