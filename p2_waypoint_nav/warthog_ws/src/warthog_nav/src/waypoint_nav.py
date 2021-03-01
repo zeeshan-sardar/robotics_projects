@@ -28,7 +28,7 @@ class square:
             # create a Twist message, fill it in to drive forward
             twist = Twist()
             twist.linear.x = 1.5
-            for i in range(20):         # 10*5hz = 2sec
+            for i in range(7):         # 10*5hz = 2sec
                 self.pub.publish(twist)
                 r.sleep()
             # create a twist message, fill it in to turn
