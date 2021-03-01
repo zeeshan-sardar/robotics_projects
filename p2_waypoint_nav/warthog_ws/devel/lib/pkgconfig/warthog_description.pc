@@ -1,0 +1,8 @@
+prefix=/home/zeeshan/dewa_evaluation_zeeshan/p2_waypoint_nav/warthog_ws/devel
+
+Name: warthog_description
+Description: Description of warthog_description
+Version: 0.1.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

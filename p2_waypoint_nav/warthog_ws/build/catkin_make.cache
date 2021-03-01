@@ -1,0 +1,2 @@
+cpr_gazebo/cpr_agriculture_gazebo:cpr_gazebo/cpr_inspection_gazebo:cpr_gazebo/cpr_office_gazebo:cpr_gazebo/cpr_race_modules:warthog/warthog_control:warthog/warthog_description:warthog/warthog_msgs:warthog_desktop/warthog_desktop:warthog_desktop/warthog_viz:warthog_nav:warthog_simulator/warthog_gazebo:warthog_simulator/warthog_simulator
+-DCATKIN_DEVEL_PREFIX=/home/zeeshan/dewa_evaluation_zeeshan/p2_waypoint_nav/warthog_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zeeshan/dewa_evaluation_zeeshan/p2_waypoint_nav/warthog_ws/install -G Unix Makefiles
