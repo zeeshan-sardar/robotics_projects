@@ -67,7 +67,6 @@ Run the following commands to install and setup Gazebo environment
 ```
 cd dewa_evaluation_zeeshan/p2_waypoint_nav/warthog_ws/src
 
-
 git clone https://github.com/warthog-cpr/warthog.git
 git clone https://github.com/warthog-cpr/warthog_simulator.git
 git clone https://github.com/warthog-cpr/warthog_desktop.git
@@ -85,8 +84,12 @@ catkin_make
 ### Launching WARTHOG
 After the installation, launch the gazebo simulation and run the waypoint navigation node.  
 ```
+source devel/setup.bash
 roslaunch cpr_agriculture_gazebo agriculture_world.launch platform:=warthog 
-rosrun warthog_navigation waypoint_navigation.py
+
+# Open a new terminal
+source devel/setup.bash
+rosrun warthog_nav waypoint_nav.py
 ```  
 
 ### Video Demo
