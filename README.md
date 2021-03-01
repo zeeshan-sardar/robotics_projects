@@ -85,7 +85,7 @@ catkin_make
 After the installation, launch the gazebo simulation and run the waypoint navigation node.  
 ```
 source devel/setup.bash
-roslaunch cpr_agriculture_gazebo agriculture_world.launch platform:=warthog 
+roslaunch warthog_gazebo warthog_world.launch
 
 # Open a new terminal
 source devel/setup.bash
