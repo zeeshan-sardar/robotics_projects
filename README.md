@@ -1,6 +1,6 @@
-# DEWA Evaluation Tasks - Robotics Researcher
+# Some Personal Robotics Projects
 
-This repository contains the solutions of the problems assigned for the candidate evaluation for Robotics Researcher Position at Dubai Electric and Water Authority (DEWA).
+This repository contains some problems and their solutions.
 
  # Problem 1: Robot Localization
 - You need to create a ROS package to localize the robot using only the GPS, Odometer
@@ -25,7 +25,7 @@ This project is built and tested on Ubuntu18 using ROS Melodic. Compatibility wi
 
 Run the following commands to install the required packages.
 ```
-cd dewa_evaluation_zeeshan/p1_robot_localization/catkin_ws/   
+cd to the workspace   
 sudo apt-get install ros-melodic-geographic-msgs
 sudo apt-get install libgeographic-dev
 sudo apt-get install geographiclib-tools
